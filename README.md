@@ -1,7 +1,10 @@
 # recipes
 Run query_recipes.py to get a hello fresh recipe with specified carb content and ingredients.
 
+usage: query_recipes.py [-h] [--carbs [CARBS]] item [item ...]
+
 recipes.json was created using a semi automatic process.
+
 1) Go to the hello fresh website and get to a page with a list of recipes (veggie recipes in my case).  
    Eg: https://www.hellofresh.com/recipes/search/?q=veggie
 2) Save the page (recipes_hello_fresh_raw.htm)
